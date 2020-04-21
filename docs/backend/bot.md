@@ -32,11 +32,11 @@ next: /finchat/intro
 
 1.回调配置：填写回调URL和Token
 
-![](./material/bot/callback_config.png)
+![](../material/bot/callback_config.png)
 
 2.事件订阅：选择订阅的事件
 
-![](./material/bot/event_subscribe.png)
+![](../material/bot/event_subscribe.png)
 
 ### 3.指令
 
@@ -44,13 +44,13 @@ next: /finchat/intro
 
 当用户与机器人会话时，会在输入框上方提示用户当前机器人支持的指令。用户选择某个指令并发送后，机器人通过接收“接收消息”事件获知指令，再通过发送消息进行相应。
 
-![](./material/bot/directive_mutual.png)
+![](../material/bot/directive_mutual.png)
 
 ##### 指令配置
 
 在应用开发详情-机器人指令页面，添加和编辑指令。注意，指令必须配合订阅事件才能成功使用。
 
-![](./material/bot/directive_config.png)
+![](../material/bot/directive_config.png)
 
 
 ### 4.会话卡片
@@ -61,7 +61,7 @@ FinChat定义了CUI的标准协议，开发者可以任意组合这些元素生�
 
 以下图为例，“FinChat小助手”机器人发送的这条CUI消息，由context/input/submit元素组成，用户提交后即回将数据回调给应用的服务。
 
-![](./material/bot/cui_finchatHelper.png)
+![](../material/bot/cui_finchatHelper.png)
 
 #### CUI消息结构
 

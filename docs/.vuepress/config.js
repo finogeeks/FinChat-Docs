@@ -14,7 +14,7 @@ module.exports = {
         nav: [
             // { text: '首页', link: '/' },
             // { text: '文档', link: '/finchat/bot.md' }
-            { text: '概述', link: '/finchat/intro.md' },
+            { text: '概述', link: '/intro.md' },
             {
                 text: '前端无形',
                 ariaLabel: '前端',
@@ -24,11 +24,11 @@ module.exports = {
                         items: [
                             {
                                 text: '移动端集成',
-                                link: '/finchat/bot.md',
+                                link: '/backend/bot.md',
                             },
                             {
                                 text: 'Android集成',
-                                link: '/finchat/intro.md',
+                                link: '/intro.md',
                             },
                         ],
                     },
@@ -50,7 +50,7 @@ module.exports = {
                         items: [
                             {
                                 text: '本地通讯协议',
-                                link: '',
+                                link: '/frontend/api_socket.md',
                             },
                             {
                                 text: '链接唤起协议',
@@ -91,7 +91,7 @@ module.exports = {
                         items: [
                             {
                                 text: '自建应用流程',
-                                link: '',
+                                link: '/backend/finstore.md',
                             },
                         ],
                     },
@@ -104,7 +104,7 @@ module.exports = {
                           },
                           {
                             text: '机器人 + CUI',
-                            link: '/finchat/bot.md',
+                            link: '/backend/bot.md',
                         },
                         {
                           text: '网页应用',
@@ -123,11 +123,11 @@ module.exports = {
               items: [
                 {
                   text: '服务端API',
-                  link: '',
+                  link: '/api/api_server.md',
                 },
                 {
                   text: '客户端API',
-                  link: '',
+                  link: '/api/api_client.md',
                 }
               ],
             },
@@ -137,7 +137,7 @@ module.exports = {
               items: [
                 {
                   text: '后端一键部署',
-                  link: '',
+                  link: '/deploy/finchat_autoDeploy.md',
                 },
                 {
                   text: 'POC部署',
