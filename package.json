@@ -1,0 +1,24 @@
+{
+  "name": "finchat-oss",
+  "version": "1.0.0",
+  "description": "The document for FinChat",
+  "main": "index.js",
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/finogeeks/finchat-oss.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/finogeeks/finchat-oss/issues"
+  },
+  "homepage": "https://github.com/finogeeks/finchat-oss#readme",
+  "devDependencies": {
+    "vuepress": "^1.4.1"
+  }
+}
